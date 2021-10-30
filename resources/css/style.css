@@ -66,6 +66,12 @@ html[dir="rtl"] #menu .item {
 #menu .item:last-child {
 	border: none !important;
 }
+#menu .social a{
+	padding: 0;
+}
+.social img {
+	width: 22px;
+}
 .home .image {
 	background-image: url(../img/logo-index.png);
 	background-image: url(../img/logo-index.svg);
