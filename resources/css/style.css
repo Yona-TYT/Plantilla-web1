@@ -15,37 +15,48 @@
 	--color-backg: #a1b6b0;
 }
 
-	.icon:before {
-		color: #fff;
-		display: inline-block;
-		font-style: normal;
-		font-variant: normal;
-		text-rendering: auto;
-		font-size: 12pt;
-		text-align: center;
+.icon:before {
+	color: #fff;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	text-align: center;
+	font-family: "FontAwesome";
+	font-weight: 400;
+	border: 1px solid #fff;
 
-		width: 25px;
-		border: 1px solid #fff;
+	font-size: 25pt;
+	width: 52px
 
-	}
+}
 
-	.instagran:before {
-		font-family: "FontAwesome";
-		font-weight: 400;
-		content: "\f16d";
-	}
+#header .icon:before {
+	font-size: 12pt;
+	width: 25px;
+}
 
-	.facebook:before {
-		font-family: "FontAwesome";
-		font-weight: 400;
-		content: "\f09a";
-	}
+.facebook:before {
+	background: #3c5b9a;
+	content: "\f09a";
+}
 
-	.twitter:before {
-		font-family: "FontAwesome";
-		font-weight: 400;
-		content: "\f099";
-	}
+.twitter:before {
+	background: #28aae1;
+	content: "\f099";
+}
+
+.instagran:before {
+	background: #c7008a;
+	content: "\f16d";
+}
+
+.social a{
+	float: left;
+	margin: 4px 5px 2px;
+	padding: 0;
+}
+
 
 html {
 	background: var(--color-backg);
@@ -114,11 +125,7 @@ html[dir="rtl"] #menu .item {
 #menu .item:last-child {
 	border: none !important;
 }
-.social a{
-	float: left;
-	margin: 4px 5px 2px;
-	padding: 0;
-}
+
 .home .image {
 	background-image: url(../img/logo-index.png);
 	background-image: url(../img/logo-index.svg);
