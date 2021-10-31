@@ -21,17 +21,17 @@
 		font-style: normal;
 		font-variant: normal;
 		text-rendering: auto;
-		font-size: 15pt;
+		font-size: 12pt;
 		text-align: center;
 
-		width: 30px;
+		width: 25px;
 		border: 1px solid #fff;
 
 	}
 
 	.instagran:before {
 		font-family: "FontAwesome";
-		font-weight: 900;
+		font-weight: 400;
 		content: "\f16d";
 	}
 
@@ -116,11 +116,8 @@ html[dir="rtl"] #menu .item {
 }
 .social a{
 	float: left;
-	margin: 2px 10px 2px;
+	margin: 4px 5px 2px;
 	padding: 0;
-}
-#header .social img {
-	width: 22px;
 }
 .home .image {
 	background-image: url(../img/logo-index.png);
