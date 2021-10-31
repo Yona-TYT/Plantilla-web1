@@ -1,7 +1,23 @@
 /* Main style */
+
+:root {
+	--color-text: #222;
+	--color-text-menu: #d6d6d6;
+
+	--color-header: rgba(0, 0, 0, 0.5);
+	--color-menu: rgba(0, 0, 0, 0.7);
+	--color-menu-hover: #ffffff;
+	--color-footer: #000;
+	--color-text-footer: #fff;
+	--color-footer-bord: #222;
+
+	--color-container: #fff;
+	--color-backg: #a1b6b0;
+}
+
 html {
-	background: #DBE2E7;
-	color: #222;
+	background: var(--color-backg);
+	color: var(--color-text);
 	line-height: 1.5;
 }
 body {
@@ -29,7 +45,7 @@ a:hover {
 }
 #header {
 	background: #C2C8CC;
-	background: rgba(194, 200, 204, .93);
+	background: var(--color-header);
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -51,7 +67,7 @@ html[dir="rtl"] #menu .item {
 }
 #menu .item a, .menu {
 	cursor: pointer;
-	color: #888;
+	color: var(--color-text-menu);
 	padding: 0 35px;
 	font-size: 14px;
 	font-weight: 700;
@@ -60,7 +76,7 @@ html[dir="rtl"] #menu .item {
 	transition: color 300ms ease;
 }
 #menu .item a:hover, .menu:hover {
-	color: #000;
+	color: var(--color-menu-hover);
 	text-decoration: none;
 }
 #menu .item:last-child {
@@ -93,7 +109,7 @@ html[dir="rtl"] #menu .item {
 }
 /* Main content */
 #container {
-	background: #fff;
+	background: var(--color-container);
 	position: relative;
 	margin: 75px auto 30px;
 	max-width: 1000px;
@@ -104,8 +120,8 @@ html[dir="rtl"] #menu .item {
 	display: none;
 }
 #footer {
-	background: #000;
-	color: #fff;
+	background: var(--color-footer);
+	color: var(--color-text-footer);
 	font-size: 14px;
 	padding-bottom: 5px;
 	width: 100%;
@@ -116,7 +132,7 @@ html[dir="rtl"] #menu .item {
 	max-width: 1000px;
 }
 #footer a {
-	color: #fff;
+	color: var(--color-text-footer);
 }
 #footer .links {
 	font-weight: bold;
@@ -175,7 +191,7 @@ html[dir="rtl"] #footer .language {
 	cursor: pointer;
 	font-size: 10pt;
 	padding: 1px 3px;
-	border: 1px solid #222;
+	border: 1px solid var(--color-footer-bord);
 	border-radius: 2px;
 	width: 100px;
 }
@@ -188,8 +204,8 @@ html[dir="rtl"] #footer .language {
 	max-height: 168px;
 	overflow-x: hidden;
 	overflow-y: auto;
-	background: #000;
-	border: 1px solid #222;
+	background: var(--color-footer);
+	border: 1px solid  var(--color-footer-bord);
 	border-radius: 2px;
 }
 #footer #language-menu:checked+.languages {
@@ -203,18 +219,7 @@ html[dir="rtl"] #footer .language {
 	cursor: pointer;
 	font-weight: bold;
 }
-#footer .connect .steam_logo {
-	background: none;
-	width: auto;
-	margin: 0;
-}
-#footer .steam_logo svg {
-	fill: #fff;
-	height: 50px;
-}
-.steam_logo:hover svg path {
-	fill: #338FCC;
-}
+
 /* For displays smaller than 935px we start showing some mobile styling */
 @media all and (max-width:935px){
 	#footer {
@@ -248,7 +253,7 @@ html[dir="rtl"] #footer .language {
 	}
 	#menu {
 		background: #D1D7DC;
-		background: rgba(209, 215, 220, .93);
+		background: var(--color-menu);
 		display: block;
 		position: absolute;
 		right: 0;
