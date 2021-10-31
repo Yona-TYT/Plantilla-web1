@@ -1,1 +1,128 @@
-h2{text-transform:uppercase;font-size:15pt;margin:0}.logo{display:block;position:relative;height:0;width:100%}.logo-bg{background:url(/images/logo-bg.png);background:linear-gradient(rgba(219,226,231,.7),rgba(219,226,231,0));padding-bottom:20px}.logo img{position:relative;display:block;margin:0 auto;top:-25px;height:200px}.smsc{background:50% no-repeat;padding:25%;height:0}.headline{color:#338fcc;margin-top:.5em}.feature a{display:block;color:inherit;text-decoration:none}#download{text-align:center;padding:20px}#download p{margin:0 0 20px}.button{display:block;background:#72b2dd;border:1px solid #6095b8;border-radius:3px;padding:10px;margin:auto;max-width:250px;color:#fff;text-decoration:none;text-align:center;text-transform:uppercase;font-weight:700}#paksets .images{height:260px;padding:0!important;overflow:hidden}#paksets .images .sized{width:852px;margin:-60px 0 0 -160px}#paksets .images .sized div{display:inline-block}#paksets .images img{display:block;float:left;border:2px solid #fff}#paksets .half{padding-bottom:20px;vertical-align:top}.half h2,.half p{margin-left:25px;margin-right:25px}.half{text-align:center;display:inline-block;vertical-align:middle;margin-top:5px;width:50%}#modding img,#transport img{display:block;margin:auto;width:100%;max-height:170px;max-width:500px}#mapsize img{display:block;margin:auto;width:100%;max-height:210px;max-width:210px}#multiplayer img{display:block;margin:auto;width:100%;max-height:220px;max-width:220px}@media all and (max-width:990px){.logo img{width:60%;min-width:220px;max-height:200px;height:auto}}@media all and (max-width:810px){.smsc{padding:0;height:365px}}@media all and (max-width:605px){.half{width:100%;display:block}}
+h2{
+	text-transform:uppercase;
+	font-size:15pt;
+	margin:0}.logo{display:block;
+	position:relative;
+	height:0;
+	width:100%
+}
+.logo-bg{
+	background:url(/images/logo-bg.png);
+	background:linear-gradient(rgba(219,226,231,.7),rgba(219,226,231,0));
+	padding-bottom:20px
+}
+.logo img {
+	position:relative;
+	display:block;
+	margin:0 auto;
+	top:-25px;
+	height:200px
+}
+.smsc{
+	background:50% no-repeat;
+	padding:15%;
+	height:0
+}
+.headline{
+	color:#338fcc;
+	margin-top:.5em
+}
+.feature a{
+	display:block;
+	color:inherit;
+	text-decoration:none
+}
+#download{
+	text-align:center;
+	padding:20px
+}
+#download p{
+	margin:0 0 20px
+}
+.button{
+	display:block;
+	background:#72b2dd;
+	border:1px solid #6095b8;
+	border-radius:3px;
+	padding:10px;
+	margin:auto;
+	max-width:250px;
+	color:#fff;
+	text-decoration:none;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:700
+}
+#paksets .images{
+	height:260px;
+	padding:0!important;
+	overflow:hidden
+}
+#paksets .images .sized{
+	width:852px;
+	margin:-60px 0 0 -160px
+}
+#paksets .images .sized div{
+	display:inline-block
+}
+#paksets .images img{
+	display:block;
+	float:left;
+	border:2px solid #fff
+}
+#paksets .half{
+	padding-bottom:20px;
+	vertical-align:top
+}
+.half h2,.half p{
+	margin-left:25px;
+	margin-right:25px
+}
+.half{
+	text-align:center;
+	display:inline-block;
+	vertical-align:middle;
+	margin-top:5px;
+	width:50%
+}
+#modding img,#transport img{
+	display:block;
+	margin:auto;
+	width:100%;
+	max-height:170px;
+	max-width:500px
+}
+#mapsize img{
+	display:block;
+	margin:auto;
+	width:100%;
+	max-height:210px;
+	max-width:210px
+}
+#multiplayer img{
+	display:block;
+	margin:auto;
+	width:100%;
+	max-height:220px;
+	max-width:220px
+}
+@media all and (max-width:990px){
+	.logo img{
+		width:50%;
+		min-width:220px;
+		max-height:200px;
+		height:auto
+	}
+}
+@media all and (max-width:810px){
+	.smsc{
+		padding:0;
+		height:250px
+	}
+}
+@media all and (max-width:605px){
+	.half{
+		width:100%;
+		display:block
+	}
+}
