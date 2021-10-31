@@ -15,7 +15,7 @@
 	--color-backg: #a1b6b0;
 }
 
-.icon:before {
+.icon {
 	color: #fff;
 	display: inline-block;
 	font-style: normal;
@@ -31,24 +31,24 @@
 
 }
 
-#header .icon:before {
+#header .icon {
 	font-size: 12pt;
 	width: 25px;
 }
 
-.facebook:before {
+.facebook {
 	background: #3c5b9a;
-	content: "\f09a";
+
 }
 
-.twitter:before {
+.twitter {
 	background: #28aae1;
-	content: "\f099";
+
 }
 
-.instagran:before {
+.instagram {
 	background: #c7008a;
-	content: "\f16d";
+
 }
 
 .social a{
