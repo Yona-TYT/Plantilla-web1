@@ -15,24 +15,36 @@
 	--color-backg: #a1b6b0;
 }
 
-	.icon::before {
+	.icon:before {
+		color: #fff;
 		display: inline-block;
 		font-style: normal;
 		font-variant: normal;
 		text-rendering: auto;
-		-webkit-font-smoothing: antialiased;
+		font-size: 15pt;
+		text-align: center;
+
+		width: 30px;
+		border: 1px solid #fff;
+
 	}
 
-	.instagran::before {
-		font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f16d";
+	.instagran:before {
+		font-family: "FontAwesome";
+		font-weight: 900;
+		content: "\f16d";
 	}
 
-	.facebook::before {
-		font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f09a";
+	.facebook:before {
+		font-family: "FontAwesome";
+		font-weight: 400;
+		content: "\f09a";
 	}
 
-	.twitter::before {
-		font-family: "Font Awesome 5 Brands"; content: "\f099";
+	.twitter:before {
+		font-family: "FontAwesome";
+		font-weight: 400;
+		content: "\f099";
 	}
 
 html {
@@ -104,7 +116,7 @@ html[dir="rtl"] #menu .item {
 }
 .social a{
 	float: left;
-	margin: 4px;
+	margin: 2px 10px 2px;
 	padding: 0;
 }
 #header .social img {
