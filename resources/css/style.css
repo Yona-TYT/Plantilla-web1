@@ -71,7 +71,7 @@ html[dir="rtl"] #menu .item {
 	margin: 4px;
 	padding: 0;
 }
-.social img {
+#header .social img {
 	width: 22px;
 }
 .home .image {
