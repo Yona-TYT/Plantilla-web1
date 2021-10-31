@@ -127,8 +127,8 @@ html[dir="rtl"] #menu .item {
 }
 
 .home .image {
-	background-image: url(../img/logo-index.png);
-	background-image: url(../img/logo-index.svg);
+
+	background-image: url(../img/logo.svg);
 	background-position: 0 50%;
 	background-repeat: no-repeat;
 	display: inline-block;
