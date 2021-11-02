@@ -18,7 +18,7 @@
 	<link rel="icon" href="resources/img/icon.png" type="image/x-icon">
 
 	<link href="resources/css/style.css" type="text/css" rel="StyleSheet" media="screen">
-	<link href="resources/css/home.css" type="text/css" rel="StyleSheet" media="screen">
+	<link href="resources/css/help.css" type="text/css" rel="StyleSheet" media="screen">
 
 	<script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
  	<script defer src="https://use.fontawesome.com/releases/v5.14.0/js/v4-shims.js"></script> 
@@ -38,13 +38,13 @@
 	<div id="header" role="banner">
 
 		<span class="social" role="menuitem">
-			<a class="icon" href="index.html" title="Facebook">
+			<a class="icon facebook" href="index.html" title="Facebook">
 				<i class="fab fa-facebook-f"></i>
 			</a>
-			<a class="icon" href="index.html" title="Twitter">
+			<a class="icon twitter" href="index.html" title="Twitter">
 				<i class="fab fa-twitter"></i>
 			</a>
-			<a class="icon" href="index.html" title="Instagram">
+			<a class="icon instagram" href="index.html" title="Instagram">
 				<i class="fab fa-instagram"></i>
 			</a>
 		</span>
@@ -55,7 +55,7 @@
 		</a>
 
 		<label for="mobile-menu" class="mobile menu" tabindex="1">Menu</label>
-			<a href="contacto.html" class="mobile menu" tabindex="1">Contacto</a>
+			<a href="No link" class="mobile menu" tabindex="1">Contacto</a>
 		<input id="mobile-menu" type="checkbox">
 
 		<div id="menu" role="menubar">
@@ -65,7 +65,7 @@
 				</a>
 			</div>
 			<div class="item desktop small_mobile">
-				<a href="contacto.html" role="menuitem">Contacto</a>
+				<a href="No link" role="menuitem">Contacto</a>
 			</div>
 			<div class="item">
 				<a href="No link" role="menuitem">Servicios</a>
@@ -82,105 +82,23 @@
 		</div>
 	</div>
 	<div id="container" role="main">
-		<div class="logo">
-			<div class="logo-bg">
-				<img alt="Simutrans" src="resources/img/logo.png" onerror='this.src="/images/logo.png"'>
-			</div>
+		<div class="smsc" style="background-image:url(&quot;resources/img/background.jpg&quot;)"></div>
+		<h1>Contacto</h1>
+		<div class="block">
+			<h2>Medios de contacto.</h2>
+			<ul>
+				<a href="https://wa.me/58414000000" class="contact"><i class="fa fa-whatsapp"></i></a>
+				<a href="https://wa.me/58414000000"> WhatsApp</a> - WhatsApp oficial de la empresa.</br>
+				<a href="tel:001001000" class="contact"><i class="fa fa-phone"></i></a>
+				<a href="tel:001001000">Linea de Atencion</a> - Linea telefonica para atencion al cliente.</br>
+				<a href="mailto:correo@mail.com/" class="contact"><i class="fa fa-envelope-o"></i></a>
+				<a href="mailto:correo@mail.com/">Email</a> - Direccion de correo electronico.</br>
+			</ul>
 		</div>
-		<div class="smsc" style="background-image:url(resources/img/background.jpg)"></div>
-		<div id="download">
-			<h1>Titulo o Nombre de la Empresa</h1>
-			<p>
-				Escriba aqui la informacion completa de la empresa.
-			</p>
-		</div>
-
-		<div id="paksets">
-			<div class="half images">
-				<div class="sized">
-					<img alt="" src="resources/img/img_1.jpg">
-					<img alt="" src="resources/img/img_2.jpg">
-					<img alt="" src="resources/img/img_3.jpg">
-				</div>
-			</div>
-			<div class="half">
-				<h2>Titulo de las Imagenes</h2>
-				<p class="headline">
-					Texto descriptivo.
-				</p>
-				<p>
-					Mas texto.
-				</p>
-				<a class="button" href="No link">Boton</a>
-			</div>
-		</div>
-
-		<div id="transport">
-			<div class="half feature">
-				<a href="midominio/about/#transport">
-					<h2>Subtitulo a</h2>
-					<p class="headline">
-						Texto.
-					</p>
-					<p>
-						Mas texto.
-					</p>
-				</a>
-			</div>
-			<div class="half">
-				<img alt="" src="resources/img/img_1.jpg" onerror='this.src=""'>
-			</div>
-		</div>
-
-		<div id="mapsize">
-			<div class="half" style="overflow:hidden">
-				<img alt="" src="resources/img/img_1.jpg" onerror='this.src="g"'>
-			</div>
-			<div class="half feature">
-				<a href="No link">
-					<h2>Subtitulo b</h2>
-					<p class="headline">
-						Texto.
-					</p>
-					<p>
-						Mas texto.
-					</p>
-				</a>
-			</div>
-		</div>
-
-		<div id="multiplayer">
-			<div class="half feature">
-				<a href="No link">
-					<h2>Subtitulo c</h2>
-					<p class="headline">
-						Texto.
-					</p>
-					<p>
-						Mas texto.
-					</p>
-				</a>
-			</div>
-			<div class="half">
-				<img alt="" src="resources/img/img_2.jpg" onerror='this.src=""'>
-			</div>
-		</div>
-
-		<div id="modding">
-			<div class="half">
-				<img alt="" src="resources/img/img_3.jpg" onerror='this.src=""'>
-			</div>
-			<div class="half feature">
-				<a href="No link">
-					<h2>Subtitulo d</h2>
-					<p class="headline">
-						Texto.
-					</p>
-					<p>
-						Mas texto.
-					</p>
-				</a>
-			</div>
+		<div class="block">
+			<h2>Ubica nuestra oficina.</h2>
+			<iframe width="100%" height="500" src="map.html"></iframe>
+</iframe>
 		</div>
 	</div>
 
@@ -188,7 +106,7 @@
 		<div class="center">
 			<div class="foot_left">
 				<span class="links">
-					<a href="contacto.html">Contacto</a>
+					<a href="No link">Contacto</a>
 					<span> - </span>
 					<a href="No link">Servicios</a>
 					<span> - </span>
@@ -204,6 +122,7 @@
 
 					Nombre Compañia ©2021 - 2021<span> | </span> <span class="by" dir="ltr">por <a href="No link">Yona-TYT</a></span>
 				</p>
+
 			</div>
 			<div class="foot_right" role="contentinfo">
 				<div class="language">
@@ -219,13 +138,13 @@
 					</div>
 				</div>
 				<span class="social">
-					<a class="icon" href="index.html" title="Facebook">
+					<a class="icon facebook" href="index.html" title="Facebook">
 						<i class="fab fa-facebook-f"></i>
 					</a>
-					<a class="icon" href="index.html" title="Twitter">
+					<a class="icon twitter" href="index.html" title="Twitter">
 						<i class="fab fa-twitter"></i>
 					</a>
-					<a class="icon" href="index.html" title="Instagram">
+					<a class="icon instagram" href="index.html" title="Instagram">
 						<i class="fab fa-instagram"></i>
 					</a>
 				</span>
