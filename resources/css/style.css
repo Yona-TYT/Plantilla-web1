@@ -36,15 +36,11 @@
 	width: 25px;
 }
 
-
-
 .social a{
 	float: left;
 	margin: 4px 5px 2px;
 	padding: 0;
 }
-
-
 html {
 	background: var(--color-backg);
 	color: var(--color-text);
@@ -98,7 +94,7 @@ html[dir="rtl"] #menu .item {
 #menu .item a, .menu {
 	cursor: pointer;
 	color: var(--color-text-menu);
-	padding: 0 35px;
+	padding: 0 20px;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 25px;

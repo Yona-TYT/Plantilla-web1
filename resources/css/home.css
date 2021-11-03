@@ -70,42 +70,35 @@ h2{
 	float:left;
 	border:2px solid #fff
 }
-#paksets .half{
-	padding-bottom:20px;
-	vertical-align:top
-}
-.half h2,.half p{
+
+.half h2{
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 60px;
 	margin-left:25px;
 	margin-right:25px
 }
+.half p{
+	font-size: 25px;
+	margin-left:25px;
+	margin-right:25px
+}
+
 .half{
 	text-align:center;
 	display:inline-block;
 	vertical-align:middle;
-	margin-top:5px;
+	margin-top:0px;
 	width:50%
 }
-#modding img,#transport img{
+.half img{
 	display:block;
 	margin:auto;
 	width:100%;
-	max-height:170px;
+	max-height:370px;
 	max-width:500px
 }
-#mapsize img{
-	display:block;
-	margin:auto;
-	width:100%;
-	max-height:210px;
-	max-width:210px
-}
-#multiplayer img{
-	display:block;
-	margin:auto;
-	width:100%;
-	max-height:220px;
-	max-width:220px
-}
+
 @media all and (max-width:990px){
 	.logo img{
 		width:50%;
