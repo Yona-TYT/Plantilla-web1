@@ -1,7 +1,6 @@
 :root {
-	--color-text-h: #dfdbaf;
-	--color-icon: #fff;
-	--color-line: #dfdbaf;
+	--color-text-h: rgba(31, 118, 233, 0.75);
+	--color-icon: rgba(31, 118, 233, 0.75);
 }
 
 h1 {
@@ -15,9 +14,7 @@ h2 {
 	 color:var(--color-text-h);
 	 border-bottom:1px solid #ccc
 }
-iframe {
-	border: 2px solid var(--color-line);
-}
+
 #container {
 	 padding-bottom:50px
 }
