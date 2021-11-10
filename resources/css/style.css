@@ -1,18 +1,20 @@
 /* Main style */
 
 :root {
-	--color-text: #222;
+	--color-text: #fff;
+	--color-text-link: #dfdbaf;
+
 	--color-text-menu: #d6d6d6;
 
-	--color-header: rgba(0, 0, 0, 0.5);
-	--color-menu: rgba(0, 0, 0, 0.55);
+	--color-header: rgba(0, 0, 0, 0.45);
+	--color-menu: rgba(0, 0, 0, 0.5);
 	--color-menu-hover: #ffffff;
-	--color-footer: #000;
+	--color-footer: rgba(0, 0, 0, 0.85);
 	--color-text-footer: #fff;
-	--color-footer-bord: #222;
+	--color-footer-bord: #dfdbaf;
 
-	--color-container: #fff;
-	--color-backg: #a1b6b0;
+	--color-container: rgba(0, 0, 0, 0.55);
+	--color-backg: #efefef;
 }
 
 .icon {
@@ -60,7 +62,7 @@ h1 {
 }
 a {
 	text-decoration: none;
-	color: #338FCC;
+	color: var(--color-text-link);
 }
 a:hover {
 	text-decoration: underline;
@@ -111,7 +113,7 @@ html[dir="rtl"] #menu .item {
 
 .home .image {
 
-	background-image: url(../img/logo.svg);
+	background-image: url(../img/logo-indx.svg);
 	background-position: 0 50%;
 	background-repeat: no-repeat;
 	display: inline-block;
@@ -176,7 +178,7 @@ html[dir="rtl"] .foot_right {
 	font-size: 11px;
 }
 #footer .copyright .by, #footer .copyright .by a {
-	color: #338FCC;
+	color:var(--color-text-link);
 }
 #footer .connect {
 	display: inline-block;
