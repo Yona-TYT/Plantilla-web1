@@ -15,7 +15,7 @@ function inicializar() {
     var Marcador = new google.maps.Marker({
                     position: new google.maps.LatLng(10.199928499167672, -71.31148338317873),
                     map: miMapa,
-                    title:"Santa Barbara"
+                    title:"Mi Ubicacion"
                 });
 }
  
