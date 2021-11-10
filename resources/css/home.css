@@ -10,7 +10,7 @@ h2{
 }
 	
 .logo{
-	display:inline;
+	display:block;
 	position:relative;
 	height:0;
 	width:100%
@@ -29,7 +29,7 @@ h2{
 }
 .smsc{
 	background:50% no-repeat;
-	padding:15%;
+	padding:10%;
 	height:0
 }
 .headline{
@@ -41,6 +41,12 @@ h2{
 	color:inherit;
 	text-decoration:none
 }
+
+#swiper{
+	text-align:center;
+	padding:20px
+}
+
 #download{
 	text-align:center;
 	padding:20px
@@ -65,7 +71,7 @@ h2{
 
 
 .half h2{
-	font-size: 40px;
+	font-size: 25px;
 	font-weight: bold;
 	line-height: 60px;
 	margin-left:25px;
@@ -103,10 +109,10 @@ h2{
 
 
 .section:nth-child(odd) {
-	border-top:2px solid var(--color-line-sec);
+	border-bottom:2px solid var(--color-line-sec);
 }
 .section:nth-child(even) {
-	border-top:2px solid var(--color-line-sec);
+	border-bottom:2px solid var(--color-line-sec);
 }
 
 @media all and (max-width:990px){
