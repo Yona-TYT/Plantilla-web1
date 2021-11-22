@@ -90,21 +90,29 @@ h2{
 	margin-top:0px;
 	width:50%
 }
-.half img{
+.half img:not(.sicon){
+	background:rgba(31, 118, 233, 0.30);
+	border:1px solid #c0cbd9;
+	border-radius:15px;
+	padding:35px;
 	display:block;
 	margin:auto;
-	width:100%;
+	width:60%;
 	max-height:370px;
 	max-width:500px
 }
 
 .sicon{
 	display: none;
+	background:rgba(31, 118, 233, 0.30);
+	border-radius:5px;
+	padding:15px;
 	font-size: 40px;
 	font-weight: bold;
 	line-height: 60px;
-	margin-left:25px;
-	margin-right:25px
+	margin-left:50%;
+	margin-right:50%;
+	width:20%;
 }
 
 
@@ -128,7 +136,7 @@ h2{
 		margin-top:5px;
 		font-size: 15pt;
 		font-weight: bold;
-		line-height: 10px;
+		line-height: 20px;
 		margin-left:25px;
 		margin-right:25px
 	}
@@ -156,7 +164,7 @@ h2{
 		width:100%;
 		display:inline
 	}
-	.half img{
+	.half img:not(.sicon){
 		display: none;
 	}
 	.sicon{
