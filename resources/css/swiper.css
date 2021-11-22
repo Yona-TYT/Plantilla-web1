@@ -148,10 +148,12 @@ h2{
 	}
 }
 @media all and (max-width:605px){
-
+	h2 {
+			font-size:10pt;
+	}
 	.title {
 
-    top: 10%;
-    height: auto;
+		top: 10%;
+		height: auto;
 
 }
