@@ -8,6 +8,21 @@ h2{
 	font-size:15pt;
 	margin:0
 }
+
+.title {
+	background: rgba(31, 118, 233, 0.35);
+
+	position: absolute;
+    top: 5%;
+    width: 100%;
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 	
 .logo{
 	display:block;
@@ -42,18 +57,6 @@ h2{
 	text-decoration:none
 }
 
-#swiper{
-	text-align:center;
-	padding:20px
-}
-
-#download{
-	text-align:center;
-	padding:20px
-}
-#download p{
-	margin:0 0 20px
-}
 .button{
 	display:block;
 	background:#72b2dd;
