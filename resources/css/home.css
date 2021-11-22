@@ -96,7 +96,8 @@ h2{
 	border-radius:15px;
 	padding:35px;
 	display:block;
-	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
 	width:60%;
 	max-height:370px;
 	max-width:500px
@@ -112,6 +113,8 @@ h2{
 	line-height: 60px;
 	margin-left:30%;
 	margin-right:50%;
+	margin-top:10px;
+	margin-bottom:10px;
 	width:30%;
 }
 
