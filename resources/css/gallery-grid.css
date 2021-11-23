@@ -66,4 +66,9 @@ body {
     .container.gallery-container {
         border-radius: 0;
     }
+.tz-gallery .lightbox img {
+    width: 100%;
+	height: 250px;
+
+}
 }
