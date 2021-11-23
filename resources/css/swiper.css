@@ -9,6 +9,11 @@ h2{
 	margin:0
 }
 
+a {
+	color: #fff;
+	text-decoration: none;
+	}
+
 .title {
 	background: rgba(31, 118, 233, 0.35);
 

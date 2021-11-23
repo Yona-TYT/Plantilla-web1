@@ -18,6 +18,9 @@
 	--color-backg: #eeeeee;
 
 	--color-line: #dfdbaf;
+
+	--color-text-h: rgba(31, 118, 233, 0.75);
+	--color-icon: rgba(31, 118, 233, 0.75);
 }
 
 .icon {
